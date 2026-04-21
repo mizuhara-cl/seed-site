@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/seed-site/">
   <title>家族教室・らくの会 | NPO法人SEEDきょうと</title>
   <meta name="description" content="摂食症のご家族を対象とした家族心理教育プログラム「家族教室」と、2012年から続く家族会「らくの会」のご案内。現地・オンラインの両方で参加可能です。">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -454,7 +455,7 @@
 <!-- HEADER -->
 <header>
   <div class="header-inner">
-    <a href="/" class="logo">
+    <a href="./" class="logo">
       <img src="https://seedkyoto.net/wordpress/wp-content/uploads/2022/08/cropped-clearlogo.png"
            alt="NPO法人SEEDきょうと"
            onerror="this.style.display='none'; this.nextElementSibling.style.display='block'">
@@ -464,13 +465,13 @@
     </a>
     <nav>
       <div class="desktop-nav">
-        <a href="/#activities">活動・事業</a>
-        <a href="/family/">家族支援</a>
-        <a href="/lecture/">講演会</a>
-        <a href="/training/">講習会</a>
-        <a href="/#about">法人概要</a>
-        <a href="/contact/">お問い合わせ</a>
-        <a href="/#donate" class="btn-donate">寄附する</a>
+        <a href="#activities">活動・事業</a>
+        <a href="family/">家族支援</a>
+        <a href="lecture/">講演会</a>
+        <a href="training/">講習会</a>
+        <a href="#about">法人概要</a>
+        <a href="contact/">お問い合わせ</a>
+        <a href="#donate" class="btn-donate">寄附する</a>
       </div>
       <div class="hamburger" onclick="toggleMenu()" aria-label="メニュー">
         <span></span><span></span><span></span>
@@ -481,18 +482,18 @@
 
 <!-- MOBILE MENU -->
 <div id="mobile-menu" style="display:none;position:fixed;inset:64px 0 0 0;background:#fff;z-index:99;padding:32px 24px;overflow-y:auto;">
-  <a href="/#activities" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">活動・事業</a>
-  <a href="/family/" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">家族教室・らくの会</a>
-  <a href="/lecture/" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">市民講演会</a>
-  <a href="/training/" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">支援者講習会</a>
-  <a href="/newsletter/" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">メーリングリスト登録</a>
+  <a href="#activities" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">活動・事業</a>
+  <a href="family/" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">家族教室・らくの会</a>
+  <a href="lecture/" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">市民講演会</a>
+  <a href="training/" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">支援者講習会</a>
+  <a href="newsletter/" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">メーリングリスト登録</a>
   <a href="https://online.seedkyoto.net" target="_blank" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">デジタルコンテンツ販売 →</a>
-  <a href="/#news" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">お知らせ</a>
-  <a href="/#about" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">法人概要</a>
+  <a href="#news" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">お知らせ</a>
+  <a href="#about" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">法人概要</a>
   <a href="https://petitpas.seedkyoto.net" target="_blank" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">プティパ →</a>
   <a href="https://lagraine.seedkyoto.net" target="_blank" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">らぐれーぬ →</a>
-  <a href="/contact/" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">お問い合わせ</a>
-  <a href="/#donate" onclick="toggleMenu()" style="display:block;margin-top:20px;text-align:center;background:var(--orange);color:#fff;padding:14px;border-radius:28px;font-weight:700;">寄附する</a>
+  <a href="contact/" onclick="toggleMenu()" style="display:block;padding:14px 0;border-bottom:1px solid var(--gray-border);font-weight:500;">お問い合わせ</a>
+  <a href="#donate" onclick="toggleMenu()" style="display:block;margin-top:20px;text-align:center;background:var(--orange);color:#fff;padding:14px;border-radius:28px;font-weight:700;">寄附する</a>
 </div>
 
 
@@ -500,7 +501,7 @@
 <!-- PAGE HERO -->
 <section class="page-hero purple">
   <div class="page-hero-inner">
-    <div class="breadcrumb"><a href="/">ホーム</a> ＞ 家族教室・らくの会</div>
+    <div class="breadcrumb"><a href="./">ホーム</a> ＞ 家族教室・らくの会</div>
     <h1>きょうと摂食障害家族教室・らくの会</h1>
     <p>摂食症はご家族への影響も大きい疾患です。ご家族が適切な知識と関わり方を身につけることで、ご本人の回復を支えやすくなります。SEEDきょうとでは、家族心理教育プログラム「家族教室」と、継続的な家族会「らくの会」を運営しています。</p>
   </div>
@@ -533,7 +534,7 @@
 
     <h2>お申込みの流れ</h2>
     <ol class="step-list">
-      <li><strong>メーリングリストに登録</strong><br>次回開催の案内をメールでお届けします。<a href="/newsletter/">メーリングリスト登録ページ</a></li>
+      <li><strong>メーリングリストに登録</strong><br>次回開催の案内をメールでお届けします。<a href="newsletter/">メーリングリスト登録ページ</a></li>
       <li><strong>開催案内を確認</strong><br>日程・参加費・申込フォームのURLをメールでお送りします。</li>
       <li><strong>申込フォームから登録</strong><br>Google Formsからお申込みください。参加費をお支払いいただき、当日ご参加ください。</li>
     </ol>
@@ -554,7 +555,7 @@
     <div class="cta-box">
       <h3>ご参加をご検討の方へ</h3>
       <p>まずはメーリングリストにご登録いただき、次回開催情報をお受け取りください。</p>
-      <a href="/newsletter/" class="btn-primary">メーリングリストに登録する</a>
+      <a href="newsletter/" class="btn-primary">メーリングリストに登録する</a>
     </div>
 
   </div>
@@ -567,22 +568,22 @@
       <h4>活動・事業</h4>
       <a href="https://petitpas.seedkyoto.net" target="_blank">プティパ（就労支援）</a>
       <a href="https://lagraine.seedkyoto.net" target="_blank">らぐれーぬ（訪問看護）</a>
-      <a href="/family/">家族教室・らくの会</a>
-      <a href="/lecture/">市民講演会</a>
-      <a href="/training/">支援者講習会</a>
+      <a href="family/">家族教室・らくの会</a>
+      <a href="lecture/">市民講演会</a>
+      <a href="training/">支援者講習会</a>
     </div>
     <div class="footer-col">
       <h4>応援する</h4>
-      <a href="/#donate">寄附・京どねーしょん</a>
+      <a href="#donate">寄附・京どねーしょん</a>
       <a href="https://readyfor.jp/projects/nposeedkyoto" target="_blank">マンスリーサポーター</a>
-      <a href="/newsletter/">メーリングリスト登録</a>
+      <a href="newsletter/">メーリングリスト登録</a>
       <a href="https://online.seedkyoto.net" target="_blank">デジタルコンテンツ販売</a>
     </div>
     <div class="footer-col">
       <h4>法人情報</h4>
-      <a href="/#about">SEEDきょうとについて</a>
-      <a href="/#news">お知らせ</a>
-      <a href="/contact/">お問い合わせ</a>
+      <a href="#about">SEEDきょうとについて</a>
+      <a href="#news">お知らせ</a>
+      <a href="contact/">お問い合わせ</a>
       <a href="#">プライバシーポリシー</a>
     </div>
     <div class="footer-col">
